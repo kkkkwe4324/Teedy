@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Teedy Practice 7 Rules"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0">
+
+  <description>
+    Practice 7 custom PMD rules for LoC, CC, WMC, CBO, and LCOM-related checks.
+  </description>
+
+  <!-- CC -->
+  <rule ref="category/java/design.xml/CyclomaticComplexity"/>
+
+  <!-- LoC -->
+  <rule ref="category/java/design.xml/NcssCount"/>
+
+  <!-- WMC -->
+  <rule ref="category/java/design.xml/TooManyMethods"/>
+
+  <!-- CBO -->
+  <rule ref="category/java/design.xml/CouplingBetweenObjects"/>
+
+  <!-- LCOM-related -->
+  <rule ref="category/java/design.xml/GodClass"/>
+
+</ruleset>

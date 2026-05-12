@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="copy-site-output">
+  <target name="copy-site-output">
+    <mkdir dir="/home/oslab/Teedy/target/site/docs-parent" />
+    <copy todir="/home/oslab/Teedy/target/site/docs-parent" overwrite="true">
+      <fileset dir="/home/oslab/Teedy/target/site" />
+    </copy>
+  </target>
+</project>
