@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <mkdir dir="/home/oslab/Teedy/target/site/docs-core" />
+    <mkdir dir="/home/oslab/Teedy/target/site/docs-web-common" />
+    <mkdir dir="/home/oslab/Teedy/target/site/docs-web" />
+    <echo file="/home/oslab/Teedy/target/site/docs-core/index.html">&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;meta charset="UTF-8" />
+  &lt;meta http-equiv="refresh" content="0; url=../../../docs-core/target/site/index.html" />
+  &lt;title>Docs Core Site&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;a href="../../../docs-core/target/site/index.html">Open Docs Core Site&lt;/a>
+&lt;/body>
+&lt;/html></echo>
+    <echo file="/home/oslab/Teedy/target/site/docs-web-common/index.html">&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;meta charset="UTF-8" />
+  &lt;meta http-equiv="refresh" content="0; url=../../../docs-web-common/target/site/index.html" />
+  &lt;title>Docs Web Common Site&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;a href="../../../docs-web-common/target/site/index.html">Open Docs Web Common Site&lt;/a>
+&lt;/body>
+&lt;/html></echo>
+    <echo file="/home/oslab/Teedy/target/site/docs-web/index.html">&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;meta charset="UTF-8" />
+  &lt;meta http-equiv="refresh" content="0; url=../../../docs-web/target/site/index.html" />
+  &lt;title>Docs Web Site&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;a href="../../../docs-web/target/site/index.html">Open Docs Web Site&lt;/a>
+&lt;/body>
+&lt;/html></echo>
+  </target>
+</project>
