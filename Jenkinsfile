@@ -26,11 +26,6 @@ steps {
 sh 'mvn jacoco:report'
 }
 }
-stage('Javadoc') {
-steps {
-sh 'mvn javadoc:javadoc -DfailOnError=false -DfailOnWarnings=false'
-}
-}
 stage('Site') {
 steps {
 sh 'mvn site'
